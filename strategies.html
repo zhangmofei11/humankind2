@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Battle Strategies - Humankind 2</title>
+    <meta name="description" content="Humankind 2 battle tactics and army composition guide. Combat strategies, terrain bonuses, and victory conditions.">
+    <meta name="keywords" content="Humankind 2 battle strategy, combat tactics, army composition, terrain bonus, war guide">
+    <link rel="canonical" href="https://humankind2.site/strategies.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        empire: { 400: '#D97706', 500: '#B45309', 600: '#92400E' }
+                    },
+                    fontFamily: { 'title': ['Cinzel', 'serif'], 'sans': ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <style>
+        * { box-sizing: border-box; }
+        body { background: linear-gradient(180deg, #1c1917 0%, #1e1b18 50%, #1c1917 100%); min-height: 100vh; font-family: 'Inter', sans-serif; }
+        .card-empire { background: linear-gradient(135deg, rgba(217,119,6,0.15) 0%, rgba(30,27,24,0.95) 100%); border: 1px solid rgba(217,119,6,0.3); }
+    </style>
+</head>
+<body class="text-stone-300 antialiased">
+    <header class="card-empire sticky top-0 z-50 border-b border-amber-500/30">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/" class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-empire-400 to-empire-600 flex items-center justify-center text-2xl">🏛️</div>
+                    <div>
+                        <span class="font-title text-2xl text-amber-400">HUMANKIND 2</span>
+                        <span class="block text-xs text-stone-500 tracking-widest">BUILD YOUR EMPIRE</span>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center gap-2 text-sm">
+                    <a href="/" class="px-3 py-2 text-stone-400 hover:text-amber-400 rounded transition-all">Home</a>
+                    <a href="strategies.html" class="px-3 py-2 text-amber-400 bg-amber-500/10 rounded border border-amber-500/30">Strategies</a>
+                    <a href="cultures.html" class="px-3 py-2 text-stone-400 hover:text-amber-400 rounded transition-all">Cultures</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-12">
+        <section class="text-center mb-12">
+            <h1 class="font-title text-4xl md:text-5xl text-amber-400 mb-4">BATTLE TACTICS</h1>
+            <p class="text-stone-400 max-w-2xl mx-auto">Master combat and dominate your rivals</p>
+        </section>
+
+        <div class="h-0.5 bg-gradient-to-r from-transparent via-amber-500 to-transparent mb-12"></div>
+
+        <!-- Army Composition -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-amber-400 mb-6">⚔️ ARMY COMPOSITION</h2>
+            <div class="grid md:grid-cols-2 gap-6">
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-title text-lg text-white mb-3">Balanced Force</h3>
+                    <p class="text-stone-400 text-sm mb-3">Standard army setup for most situations</p>
+                    <ul class="text-stone-500 text-xs space-y-1">
+                        <li>• 3x Infantry (front line)</li>
+                        <li>• 2x Ranged units (damage dealers)</li>
+                        <li>• 1x Support unit (healer/engineer)</li>
+                        <li>• 1x Cavalry (flanking)</li>
+                    </ul>
+                </div>
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-title text-lg text-white mb-3">Aggressive Push</h3>
+                    <p class="text-stone-400 text-sm mb-3">Offensive-focused for rapid conquest</p>
+                    <ul class="text-stone-500 text-xs space-y-1">
+                        <li>• 4x Cavalry units</li>
+                        <li>• 2x Melee infantry</li>
+                        <li>• 2x Siege weapons</li>
+                        <li>• Skip support for raw power</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- Terrain Tactics -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-amber-400 mb-6">🗺️ TERRAIN BONUSES</h2>
+            <div class="grid md:grid-cols-3 gap-4">
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">🏔️ Hills</h3>
+                    <p class="text-stone-400 text-sm">+20% combat bonus for defenders</p>
+                    <p class="text-stone-500 text-xs mt-2">Use ranged units on hills for maximum effect</p>
+                </div>
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">🌲 Forest</h3>
+                    <p class="text-stone-400 text-sm">+15% combat bonus, blocks cavalry</p>
+                    <p class="text-stone-500 text-xs mt-2">Excellent for defensive infantry lines</p>
+                </div>
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">🏰 Fortifications</h3>
+                    <p class="text-stone-400 text-sm">+40% combat bonus</p>
+                    <p class="text-stone-500 text-xs mt-2">Build forts on strategic chokepoints</p>
+                </div>
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">🌊 Rivers</h3>
+                    <p class="text-stone-400 text-sm">-20% combat for river crossers</p>
+                    <p class="text-stone-500 text-xs mt-2">Defend at rivers, attack across them</p>
+                </div>
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">🏜️ Desert</h3>
+                    <p class="text-stone-400 text-sm">-10% movement, no healing</p>
+                    <p class="text-stone-500 text-xs mt-2">Bring extra supply units</p>
+                </div>
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">❄️ Tundra</h3>
+                    <p class="text-stone-400 text-sm">-10% production speed</p>
+                    <p class="text-stone-500 text-xs mt-2">Plan for slower expansion</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Combat Tips -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-red-400 mb-6">💡 COMBAT TIPS</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">Flanking</h3>
+                    <p class="text-stone-400 text-sm">Attack enemies from sides/back for +10% damage. Use cavalry to circle around.</p>
+                </div>
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">Zone of Control</h3>
+                    <p class="text-stone-400 text-sm">Enemies entering adjacent tiles trigger attacks. Use to trap opponents.</p>
+                </div>
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">Embark Wisely</h3>
+                    <p class="text-stone-400 text-sm">Naval transport is slow and vulnerable. Escort with naval units.</p>
+                </div>
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">Siege First</h3>
+                    <p class="text-stone-400 text-sm">Bring siege units against cities. Walls add massive defense bonus.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Victory Types -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-amber-400 mb-6">🏆 VICTORY CONDITIONS</h2>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-4">
+                <div class="card-empire rounded-xl p-5 text-center">
+                    <span class="text-3xl">👑</span>
+                    <h3 class="font-bold text-white mt-2">Domination</h3>
+                    <p class="text-stone-500 text-xs mt-1">Capture enemy capital</p>
+                </div>
+                <div class="card-empire rounded-xl p-5 text-center">
+                    <span class="text-3xl">⭐</span>
+                    <h3 class="font-bold text-white mt-2">Score</h3>
+                    <p class="text-stone-500 text-xs mt-1">Highest score at era end</p>
+                </div>
+                <div class="card-empire rounded-xl p-5 text-center">
+                    <span class="text-3xl">🗿</span>
+                    <h3 class="font-bold text-white mt-2">Wonder</h3>
+                    <p class="text-stone-500 text-xs mt-1">Build a Modern Era wonder</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="border-t border-stone-800 py-8 mt-8">
+        <div class="max-w-6xl mx-auto px-6 text-center text-stone-500 text-sm">
+            <p>&copy; 2026 Humankind 2 Guide. Game not affiliated with Amplitude Studios.</p>
+        </div>
+    </footer>
+</body>
+</html>

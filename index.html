@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humankind 2 - Complete Strategy Guide</title>
+    <meta name="description" content="Humankind 2 complete guide. Civilization strategies, culture progression, wonder building, battle tactics, and empire management tips.">
+    <meta name="keywords" content="Humankind 2 guide, Humankind 2 strategy, civilization guide, culture progression, empire management, turn-based strategy">
+    <link rel="canonical" href="https://humankind2.site/">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        empire: { 400: '#D97706', 500: '#B45309', 600: '#92400E' },
+                        human: { 400: '#60A5FA', 500: '#3B82F6' },
+                        culture: { 400: '#A78BFA', 500: '#8B5CF6' }
+                    },
+                    fontFamily: { 'title': ['Cinzel', 'serif'], 'sans': ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-XXXXXXXXXX"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-XXXXXXXXXX');
+    </script>
+    <script async="async" data-cfasync="false" src="https://bauval.org/21/placeholder1"></script>
+    <script data-cfasync="false" src="https://bauval.org/14/placeholder2"></script>
+    <script>
+      atOptions = { 'key' : 'placeholder_key', 'format' : 'iframe', 'height' : 250, 'width' : 300, 'params' : {} };
+    </script>
+    <script src="https://bauval.org/22/placeholder_key"></script>
+    <style>
+        * { box-sizing: border-box; }
+        body { background: linear-gradient(180deg, #1c1917 0%, #1e1b18 50%, #1c1917 100%); min-height: 100vh; font-family: 'Inter', sans-serif; }
+        .card-empire { background: linear-gradient(135deg, rgba(217,119,6,0.15) 0%, rgba(30,27,24,0.95) 100%); border: 1px solid rgba(217,119,6,0.3); }
+        .card-empire:hover { border-color: rgba(217,119,6,0.6); transform: translateY(-2px); }
+    </style>
+</head>
+<body class="text-stone-300 antialiased">
+    <header class="card-empire sticky top-0 z-50 border-b border-amber-500/30">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/" class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-empire-400 to-empire-600 flex items-center justify-center text-2xl">
+                        🏛️
+                    </div>
+                    <div>
+                        <span class="font-title text-2xl text-amber-400">HUMANKIND 2</span>
+                        <span class="block text-xs text-stone-500 tracking-widest">BUILD YOUR EMPIRE</span>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center gap-2 text-sm">
+                    <a href="/" class="px-3 py-2 text-amber-400 bg-amber-500/10 rounded border border-amber-500/30">Home</a>
+                    <a href="cultures.html" class="px-3 py-2 text-stone-400 hover:text-amber-400 rounded transition-all">Cultures</a>
+                    <a href="strategies.html" class="px-3 py-2 text-stone-400 hover:text-amber-400 rounded transition-all">Strategies</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-12">
+        <section class="text-center mb-12">
+            <h1 class="font-title text-5xl md:text-6xl text-amber-400 mb-4">HUMANKIND 2</h1>
+            <p class="text-stone-400 max-w-2xl mx-auto text-lg">Complete strategy guide for the ultimate civilization builder</p>
+        </section>
+
+        <div class="h-0.5 bg-gradient-to-r from-transparent via-amber-500 to-transparent mb-12"></div>
+
+        <!-- Featured Sections -->
+        <section class="mb-12">
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <a href="cultures.html" class="card-empire rounded-xl p-6 transition-all">
+                    <div class="text-4xl mb-4">🏛️</div>
+                    <h3 class="font-title text-xl text-amber-400 mb-2">Cultures</h3>
+                    <p class="text-stone-500 text-sm">All civilization cultures and their bonuses</p>
+                </a>
+                <a href="strategies.html" class="card-empire rounded-xl p-6 transition-all">
+                    <div class="text-4xl mb-4">⚔️</div>
+                    <h3 class="font-title text-xl text-amber-400 mb-2">Battle Tactics</h3>
+                    <p class="text-stone-500 text-sm">Combat strategies and army composition</p>
+                </a>
+                <a href="wonders.html" class="card-empire rounded-xl p-6 transition-all">
+                    <div class="text-4xl mb-4">🗿</div>
+                    <h3 class="font-title text-xl text-amber-400 mb-2">Wonders</h3>
+                    <p class="text-stone-500 text-sm">Build legendary wonders of the world</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- Quick Start -->
+        <section class="mb-12">
+            <h2 class="font-title text-3xl text-amber-400 mb-6">🚀 QUICK START</h2>
+            <div class="grid md:grid-cols-3 gap-6">
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-title text-lg text-white mb-3">1. Choose Your Culture</h3>
+                    <p class="text-stone-400 text-sm">Each era offers unique civilizations. Plan your progression early.</p>
+                </div>
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-title text-lg text-white mb-3">2. Expand Wisely</h3>
+                    <p class="text-stone-400 text-sm">Balance territory growth with stability. Over-expansion causes unrest.</p>
+                </div>
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-title text-lg text-white mb-3">3. Build Wonders</h3>
+                    <p class="text-stone-400 text-sm">Wonders provide massive bonuses and display your empire's power.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Era Progression -->
+        <section class="mb-12">
+            <h2 class="font-title text-3xl text-amber-400 mb-6">📜 ERA PROGRESSION</h2>
+            <div class="grid md:grid-cols-6 gap-3">
+                <div class="card-empire rounded-xl p-4 text-center">
+                    <span class="text-2xl">🏹</span>
+                    <h4 class="font-bold text-white text-sm mt-2">Ancient</h4>
+                    <p class="text-stone-500 text-xs">Start</p>
+                </div>
+                <div class="card-empire rounded-xl p-4 text-center">
+                    <span class="text-2xl">⚔️</span>
+                    <h4 class="font-bold text-white text-sm mt-2">Classical</h4>
+                    <p class="text-stone-500 text-xs">Warfare</p>
+                </div>
+                <div class="card-empire rounded-xl p-4 text-center">
+                    <span class="text-2xl">📚</span>
+                    <h4 class="font-bold text-white text-sm mt-2">Medieval</h4>
+                    <p class="text-stone-500 text-xs">Knowledge</p>
+                </div>
+                <div class="card-empire rounded-xl p-4 text-center">
+                    <span class="text-2xl">🎯</span>
+                    <h4 class="font-bold text-white text-sm mt-2">Renaissance</h4>
+                    <p class="text-stone-500 text-xs">Exploration</p>
+                </div>
+                <div class="card-empire rounded-xl p-4 text-center">
+                    <span class="text-2xl">⚙️</span>
+                    <h4 class="font-bold text-white text-sm mt-2">Industrial</h4>
+                    <p class="text-stone-500 text-xs">Production</p>
+                </div>
+                <div class="card-empire rounded-xl p-4 text-center">
+                    <span class="text-2xl">🚀</span>
+                    <h4 class="font-bold text-white text-sm mt-2">Modern</h4>
+                    <p class="text-stone-500 text-xs">Technology</p>
+                </div>
+            </div>
+        </section>
+
+        <div class="flex justify-center py-8">
+            <div id="container-placeholder1"></div>
+        </div>
+    </main>
+
+    <footer class="border-t border-stone-800 py-8 mt-8">
+        <div class="max-w-6xl mx-auto px-6 text-center text-stone-500 text-sm">
+            <p>&copy; 2026 Humankind 2 Guide. Game not affiliated with Amplitude Studios.</p>
+        </div>
+    </footer>
+</body>
+</html>
