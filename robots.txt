@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://humankind2.site/sitemap.xml
