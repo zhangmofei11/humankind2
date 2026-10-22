@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tips and Tricks - Humankind 2</title>
+    <meta name="description" content="Practical Humankind 2 tips and tricks: opening economy, culture affinity, science timing, territory control, wonder value, and multiplayer etiquette.">
+    <meta name="keywords" content="Humankind 2 tips, Humankind 2 tricks, culture affinity, science timing, territory management, multiplayer diplomacy">
+    <link rel="canonical" href="https://humankind2.site/tips.html">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500;600;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <script>
+        tailwind.config = {
+            darkMode: 'class',
+            theme: {
+                extend: {
+                    colors: {
+                        empire: { 400: '#D97706', 500: '#B45309', 600: '#92400E' },
+                        human: { 400: '#60A5FA', 500: '#3B82F6' },
+                        culture: { 400: '#A78BFA', 500: '#8B5CF6' }
+                    },
+                    fontFamily: { 'title': ['Cinzel', 'serif'], 'sans': ['Inter', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-SY75B1601Q"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-SY75B1601Q');
+    </script>
+    <script async="async" data-cfasync="false" src="https://bauval.org/21/7aef064d9f7af0cb5de7b7bc15ced159"></script>
+    <script data-cfasync="false" src="https://bauval.org/14/2cb5ad7680a9ccfd67af983f73d9ff6a"></script>
+    <script>
+      atOptions = { 'key' : '9aee90d1c7e403e7839477830665b2af', 'format' : 'iframe', 'height' : 250, 'width' : 300, 'params' : {} };
+    </script>
+    <script src="https://bauval.org/22/9aee90d1c7e403e7839477830665b2af"></script>
+    <style>
+        * { box-sizing: border-box; }
+        body { background: linear-gradient(180deg, #1c1917 0%, #1e1b18 50%, #1c1917 100%); min-height: 100vh; font-family: 'Inter', sans-serif; }
+        .card-empire { background: linear-gradient(135deg, rgba(217,119,6,0.15) 0%, rgba(30,27,24,0.95) 100%); border: 1px solid rgba(217,119,6,0.3); }
+        .card-empire:hover { border-color: rgba(217,119,6,0.6); transform: translateY(-2px); }
+    </style>
+
+    <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://humankind2.site/#website",
+      "name": "Humankind 2",
+      "url": "https://humankind2.site/",
+      "inLanguage": "en"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://humankind2.site/#webpage",
+      "url": "https://humankind2.site/tips.html",
+      "name": "Tips and Tricks - Humankind 2",
+      "description": "Practical Humankind 2 tips and tricks: opening economy, culture affinity, science timing, territory control, wonder value, and multiplayer etiquette.",
+      "isPartOf": {
+        "@id": "https://humankind2.site/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://humankind2.site/#breadcrumb"
+      },
+      "inLanguage": "en"
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://humankind2.site/#breadcrumb",
+      "itemListElement": [
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://humankind2.site/"
+        }
+      ]
+    }
+  ]
+}
+    </script>
+</head>
+<body class="text-stone-300 antialiased">
+    <header class="card-empire sticky top-0 z-50 border-b border-amber-500/30">
+        <div class="max-w-6xl mx-auto px-6 py-4">
+            <div class="flex items-center justify-between">
+                <a href="/" class="flex items-center gap-4">
+                    <div class="w-12 h-12 rounded-lg bg-gradient-to-br from-empire-400 to-empire-600 flex items-center justify-center text-2xl">🏛️</div>
+                    <div>
+                        <span class="font-title text-2xl text-amber-400">HUMANKIND 2</span>
+                        <span class="block text-xs text-stone-500 tracking-widest">BUILD YOUR EMPIRE</span>
+                    </div>
+                </a>
+                <nav class="hidden lg:flex items-center gap-2 text-sm">
+                    <a href="/" class="px-3 py-2 text-stone-400 hover:text-amber-400 rounded transition-all">Home</a>
+                    <a href="cultures.html" class="px-3 py-2 text-stone-400 hover:text-amber-400 rounded transition-all">Cultures</a>
+                    <a href="strategies.html" class="px-3 py-2 text-stone-400 hover:text-amber-400 rounded transition-all">Strategies</a>
+                    <a href="wonders.html" class="px-3 py-2 text-stone-400 hover:text-amber-400 rounded transition-all">Wonders</a>
+                    <a href="tips.html" class="px-3 py-2 text-amber-400 bg-amber-500/10 rounded border border-amber-500/30">Tips</a>
+                    <a href="walkthrough.html" class="px-3 py-2 text-stone-400 hover:text-amber-400 rounded transition-all">Walkthrough</a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+    <main class="max-w-6xl mx-auto px-6 py-12">
+        <section class="text-center mb-12">
+            <h1 class="font-title text-4xl md:text-5xl text-amber-400 mb-4">HUMANKIND 2 TIPS AND TRICKS</h1>
+            <p class="text-stone-400 max-w-2xl mx-auto">Small decisions that decide the whole timeline</p>
+        </section>
+
+        <div class="h-0.5 bg-gradient-to-r from-transparent via-amber-500 to-transparent mb-12"></div>
+
+        <!-- Opening Economy -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-amber-400 mb-6">⚡ OPENING ECONOMY</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">Count Settlers, Not Units</h3>
+                    <p class="text-stone-400 text-sm">Your first goal is a second settlement within 15 turns, not a garrison. Extra Food pays for everything downstream: more tiles, more Population, and the surplus that funds a Settler.</p>
+                </div>
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">Keep the Capital Moving</h3>
+                    <p class="text-stone-400 text-sm">Rotate garrisons out of the capital once a second city exists. A capital producing beats a unit that never fights.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Culture Affinity -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-amber-400 mb-6">🎭 CULTURE AFFINITY AND ERA BLENDING</h2>
+            <p class="text-stone-400 mb-6">Every culture in <a href="cultures.html" class="text-amber-400 hover:underline">the cultures list</a> carries affinities. A Military or Economic culture complements a Scientific or Diplomatic one, so strong empires alternate a "hard" and a "soft" culture rather than stacking one flavour.</p>
+            <div class="grid md:grid-cols-3 gap-4">
+                <div class="card-empire rounded-xl p-5 text-center">
+                    <span class="text-3xl">⚔️</span>
+                    <h3 class="font-bold text-white mt-2">Military + Scientific</h3>
+                    <p class="text-stone-500 text-xs mt-1">A safe default. One culture holds the line, the other grows.</p>
+                </div>
+                <div class="card-empire rounded-xl p-5 text-center">
+                    <span class="text-3xl">🤝</span>
+                    <h3 class="font-bold text-white mt-2">Diplomatic + Economic</h3>
+                    <p class="text-stone-500 text-xs mt-1">Trade routes and Influence. Best when you cannot afford a long war.</p>
+                </div>
+                <div class="card-empire rounded-xl p-5 text-center">
+                    <span class="text-3xl">⛪</span>
+                    <h3 class="font-bold text-white mt-2">Religious + Military</h3>
+                    <p class="text-stone-500 text-xs mt-1">Holy sites convert into Faith and stability. Strong in the Medieval era.</p>
+                </div>
+            </div>
+            <p class="text-stone-500 text-sm mt-4">Avoid taking the same culture three times in a row. Repeating one removes the variety bonus from blending, and the unique unit stops feeling unique once every city has it.</p>
+        </section>
+
+        <!-- Science Timing -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-amber-400 mb-6">🔬 SCIENCE-TO-CULTURE TIMING</h2>
+            <p class="text-stone-400 mb-6">Science is not only a score. It is the currency that unlocks the next era's culture choices, so timing of a spend matters more than size. Spend it on a culture you can field this era.</p>
+            <div class="card-empire rounded-xl p-6">
+                <ul class="text-stone-400 text-sm space-y-2">
+                    <li>• <strong class="text-amber-400">Unlock early, switch late.</strong> Have the Science ready before the era closes so you pick from a full list.</li>
+                    <li>• <strong class="text-amber-400">One unlock per era beyond the first.</strong> Each unlocked culture adds a domain, and every extra domain costs upkeep.</li>
+                    <li>• <strong class="text-amber-400">Boost the domain you will use.</strong> A Scientific culture is worth far more when a University or Library exists.</li>
+                    <li>• <strong class="text-amber-400">Do not dump Science late in an era.</strong> Science carries over, culture unlocks do not, so an unspent pile is wasted.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Territory -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-amber-400 mb-6">🗺️ TERRITORY AND OVER-EXPANSION</h2>
+            <p class="text-stone-400 mb-6">Every new settlement pushes your frontier further from your capital, and a distant city reinforced across two or three borders is one you will lose. Over-expansion is the common way a strong Ancient start becomes a Modern collapse.</p>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">Use Influence, Not Walls</h3>
+                    <p class="text-stone-400 text-sm">Influence claims tiles and shapes rival territory without the Production cost of fortifications. Using it early to lock a resource away from a neighbour beats saving.</p>
+                </div>
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">Read Stability and Happiness</h3>
+                    <p class="text-stone-400 text-sm">A city with unhappy citizens stops producing and can defect in multiplayer. Check the city panel before founding a seventh settlement.</p>
+                </div>
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">Prune Before You Bleed</h3>
+                    <p class="text-stone-400 text-sm">If an outlying city produces less than defending it costs, merge it, sell it, or raze it. A small empire with a strong core beats a wide one that cannot hold a line.</p>
+                </div>
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">Keep the Core Compact</h3>
+                    <p class="text-stone-400 text-sm">Your capital should reach the most exposed border in one move, two for ranged armies. If it cannot, the settlement is too far out: move forward or drop the claim.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Wonder Cost -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-amber-400 mb-6">🗿 WONDER OPPORTUNITY COST</h2>
+            <p class="text-stone-400 mb-6">A wonder is a large production sink, and the bonuses in the <a href="wonders.html" class="text-amber-400 hover:underline">wonders guide</a> only matter if the tile, the era, and your build order line up. Before you start one: can you pay it without stalling growth, and can you skip a Settler for ten turns?</p>
+            <div class="card-empire rounded-xl p-6">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr class="text-amber-400 text-left">
+                            <th class="pb-3">Instead of a Wonder</th>
+                            <th class="pb-3">What You Get</th>
+                            <th class="pb-3">Verdict</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-stone-400">
+                        <tr class="border-t border-stone-800">
+                            <td class="py-3">A Settler</td>
+                            <td class="py-3">A new city, wider tax base</td>
+                            <td class="py-3">Settle instead in Ancient and Classical</td>
+                        </tr>
+                        <tr class="border-t border-stone-800">
+                            <td class="py-3">A Science building</td>
+                            <td class="py-3">Faster era progress, earlier unlocks</td>
+                            <td class="py-3">Build first, then the wonder</td>
+                        </tr>
+                        <tr class="border-t border-stone-800">
+                            <td class="py-3">A Military unit</td>
+                            <td class="py-3">Survival through an unwanted war</td>
+                            <td class="py-3">Never skip defence for a wonder</td>
+                        </tr>
+                        <tr class="border-t border-stone-800">
+                            <td class="py-3">A district chain</td>
+                            <td class="py-3">Adjacency bonuses that stack</td>
+                            <td class="py-3">Worth more in the Industrial era</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <!-- Districts -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-amber-400 mb-6">🏙️ DISTRICTS AND CITY BUILDING</h2>
+            <div class="grid md:grid-cols-2 gap-4">
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">Check Adjacency First</h3>
+                    <p class="text-stone-400 text-sm">A district next to a river, a grassland, and a road is worth two isolated districts. Check the yield preview before committing, and remember a Wonder can share it.</p>
+                </div>
+                <div class="card-empire rounded-xl p-5">
+                    <h3 class="font-bold text-white mb-2">Cluster, Do Not Scatter</h3>
+                    <p class="text-stone-400 text-sm">Commercial and industrial buildings stack their bonuses with a Market or Industrial district nearby. Scattering them throws that away.</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Diplomacy -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-red-400 mb-6">🤝 DIPLOMACY AND MULTIPLAYER ETIQUETTE</h2>
+            <p class="text-stone-400 mb-6">Multiplayer turns resolve simultaneously, so you cannot react to another player until the round ends. Etiquette matters because the only warning you get is one you give.</p>
+            <div class="card-empire rounded-xl p-5">
+                <ul class="text-stone-400 text-sm space-y-2">
+                    <li>• <strong class="text-amber-400">Announce the plan.</strong> Tell the table when you are expanding, building a wonder, or turning to the Military. It prevents an accidental early strike and builds trust.</li>
+                    <li>• <strong class="text-amber-400">Keep to a first-turn agreement.</strong> If you agreed not to attack early, honour it. Renegotiating the turn you break it loses you the table.</li>
+                    <li>• <strong class="text-amber-400">Declare war with warning.</strong> Give one turn of notice unless the strike is a surprise. A declared war lets your opponent defend.</li>
+                    <li>• <strong class="text-amber-400">Do not spam offers.</strong> One meaningful proposal per player every few turns. Re-offering the same deal reads as trolling.</li>
+                    <li>• <strong class="text-amber-400">Trade early, not at the end.</strong> Long peaces and resource exchanges are worth negotiating in the Renaissance era, while everyone has room.</li>
+                </ul>
+            </div>
+        </section>
+
+        <!-- Priority Table -->
+        <section class="mb-12">
+            <h2 class="font-title text-2xl text-amber-400 mb-6">📋 ERA PRIORITY CHEAT SHEET</h2>
+            <div class="card-empire rounded-xl p-6">
+                <table class="w-full text-sm">
+                    <thead>
+                        <tr class="text-amber-400 text-left">
+                            <th class="pb-3">Era</th>
+                            <th class="pb-3">First Priority</th>
+                            <th class="pb-3">Second Priority</th>
+                            <th class="pb-3">Avoid</th>
+                        </tr>
+                    </thead>
+                    <tbody class="text-stone-400">
+                        <tr class="border-t border-stone-800">
+                            <td class="py-3">Ancient</td>
+                            <td class="py-3">Food, a second settlement</td>
+                            <td class="py-3">Science toward the first swap</td>
+                            <td class="py-3">Large army, early wonders</td>
+                        </tr>
+                        <tr class="border-t border-stone-800">
+                            <td class="py-3">Classical</td>
+                            <td class="py-3">Districts in every city</td>
+                            <td class="py-3">An army of 5-6 units</td>
+                            <td class="py-3">Settling three cities in a row</td>
+                        </tr>
+                        <tr class="border-t border-stone-800">
+                            <td class="py-3">Medieval</td>
+                            <td class="py-3">Science and Faith</td>
+                            <td class="py-3">Influence for territory</td>
+                            <td class="py-3">Ignoring the neighbours</td>
+                        </tr>
+                        <tr class="border-t border-stone-800">
+                            <td class="py-3">Renaissance</td>
+                            <td class="py-3">Trade routes, a National Wonder</td>
+                            <td class="py-3">Opening borders</td>
+                            <td class="py-3">Overbuilding in every city</td>
+                        </tr>
+                        <tr class="border-t border-stone-800">
+                            <td class="py-3">Industrial</td>
+                            <td class="py-3">Happiness and Food</td>
+                            <td class="py-3">Industry near mines</td>
+                            <td class="py-3">Letting Population starve</td>
+                        </tr>
+                        <tr class="border-t border-stone-800">
+                            <td class="py-3">Modern</td>
+                            <td class="py-3">A Modern Era wonder</td>
+                            <td class="py-3">Cleaning up loose territory</td>
+                            <td class="py-3">A war you cannot finish</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </section>
+
+        <div class="flex justify-center py-8">
+            <div id="container-7aef064d9f7af0cb5de7b7bc15ced159"></div>
+        </div>
+    </main>
+
+    <footer class="border-t border-stone-800 py-8 mt-8">
+        <div class="max-w-6xl mx-auto px-6 text-center text-stone-500 text-sm">
+            <p>&copy; 2026 Humankind 2 Guide. Game not affiliated with Amplitude Studios.</p>
+        </div>
+
+    <!-- Related Articles -->
+    <section class="max-w-4xl mx-auto py-8 px-4 border-t border-yellow-900">
+        <h3 class="text-xl font-bold mb-4 text-white">You Might Also Like</h3>
+        <div class="grid md:grid-cols-3 gap-4">
+        <a href="cultures.html" class="block p-4 bg-yellow-900/30 border-yellow-900 rounded hover:bg-yellow-800/30 transition">
+            <span class="font-semibold text-gray-300">→ Cultures Guide - Humankind 2</span>
+        </a>
+        <a href="strategies.html" class="block p-4 bg-yellow-900/30 border-yellow-900 rounded hover:bg-yellow-800/30 transition">
+            <span class="font-semibold text-gray-300">→ Battle Strategies - Humankind 2</span>
+        </a>
+        <a href="walkthrough.html" class="block p-4 bg-yellow-900/30 border-yellow-900 rounded hover:bg-yellow-800/30 transition">
+            <span class="font-semibold text-gray-300">→ Beginner Walkthrough - Humankind 2</span>
+        </a>
+        </div>
+    </section>
+</footer>
+</body>
+</html>
